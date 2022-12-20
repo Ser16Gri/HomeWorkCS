@@ -5,9 +5,13 @@ Console.WriteLine("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine());
 
 int max = numberA;
+int min = numberB;
 
-while (numberB > max)
+while (min > max)
 {
     max = numberB;
+    min = numberA;
 }
-Console.Write($"Большее число {max}");
+
+Console.WriteLine($"Большее число {max}");
+Console.WriteLine($"Меньшее число {min}");
