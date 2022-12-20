@@ -7,7 +7,7 @@
 //int max = numberA;
 //int min = numberB;
 
-//while (min > max)
+//if (min > max)
 //{
 //    max = numberB;
 //    min = numberA;
