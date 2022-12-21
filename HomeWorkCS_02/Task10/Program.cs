@@ -6,7 +6,7 @@ int b = 0;
 if (N > 99 && N < 999 )
 {
     b = (N / 10) % 10;
-    Console.WriteLine($"Вторая чифра этого числа {b}");
+    Console.WriteLine($"Вторая цифра этого числа {b}");
 }
 else Console.WriteLine("Вы ввели неправильное число");
 
